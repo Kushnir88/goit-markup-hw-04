@@ -44,7 +44,7 @@ button {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -340,18 +340,11 @@ ol {
   
 .project-card-link {
   text-decoration: none;
+  display: block;
 }
 
-/* .project-card-link:hover,
+.project-card-link:hover,
 .project-card-link:focus
-{
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
-} */
-
-.project-card-image:hover,
-.project-card-image:focus
 {
   -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
