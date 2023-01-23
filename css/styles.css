@@ -263,7 +263,19 @@ ol {
   width: 1128px;
   /* background-color: aqua; */
 }
+.feature-item {
+  display: block;
+  height: 112px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #f4f4fd;
+}
 
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  margin-top: 24px;
+}
 
 /*============================Doings============================*/
 .doings {
@@ -275,18 +287,7 @@ ol {
   gap: 24px;
   margin-top: 72px;
 }
-.feature-item {
-  display: block;
-  height: 112px;
-  background: #f4f4fd;
-  border-radius: 4px;
-  text-align: center;
-}
-.feature-icon {
-  width: 64px;
-  height: 64px;
-  margin-top: 24px;
-}
+
 
 /*============================OurTeam============================*/
 .our-team {
@@ -335,13 +336,14 @@ ol {
   background: #ffffff;
   border: 1px solid #e7e9fc;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+  }
 .project-card-link {
   text-decoration: none;
 }
+
 .project-card-link :hover, :focus{
-  border: 1px solid #E7E9FC;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  border: 0.5px solid #F4F4FD;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-soc-list {
@@ -433,7 +435,7 @@ ol {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-    color: #4d5ae5;
+  color: #4d5ae5;
   background-color: #f4f4fd;
 
   font-family: inherit;
@@ -446,11 +448,15 @@ ol {
 .button-portfolio:hover {
   color: #e7e9fc;
   background-color: #4d5ae5;
+  border: 1px solid #4d5ae5;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-portfolio:focus {
   color: #e7e9fc;
-  background-color: #404bbf;
-}
+  background-color: #4d5ae5;
+  border: 1px solid #4d5ae5;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 .buttons {
   display: flex;
   justify-content: center;
